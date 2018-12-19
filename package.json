@@ -1,0 +1,52 @@
+{
+  "name": "ampbuild",
+  "version": "0.0.1",
+  "description": "AMP Build",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [
+    "gulp",
+    "amp"
+  ],
+  "config": {
+    "src": {
+      "sass": "src/sass",
+      "sassamp": "src/sass-amp"
+    },
+    "build": {
+      "css": "build/css"
+    },
+    "ampbuild": {
+      "css": "amp-build/css"
+    }
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.2",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "require-dir": "^1.2.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
